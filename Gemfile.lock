@@ -1,0 +1,65 @@
+GIT
+  remote: https://b8b4af8230dadcfa03721b31f4fce26b51b6e2c7:x-oauth-basic@github.com/qonto/treezor-client.git
+  revision: 45cae26c23d5a7e4a9f68928759876d4d7c36821
+  specs:
+    treezor (0.0.1)
+      activesupport (<= 5.0.2)
+      faraday (~> 0)
+      httpclient
+      money
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    backports (3.8.0)
+    concurrent-ruby (1.0.5)
+    dotenv (2.2.1)
+    faraday (0.12.1)
+      multipart-post (>= 1.2, < 3)
+    httpclient (2.8.3)
+    i18n (0.8.4)
+    minitest (5.10.2)
+    money (6.9.0)
+      i18n (>= 0.6.4, < 0.9)
+    multi_json (1.12.1)
+    multipart-post (2.0.0)
+    mustermann (1.0.0)
+    puma (3.8.2)
+    rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    sinatra-contrib (2.0.0)
+      backports (>= 2.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.0)
+      sinatra (= 2.0.0)
+      tilt (>= 1.3, < 3)
+    thread_safe (0.3.6)
+    tilt (2.0.7)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  dotenv
+  puma
+  sinatra
+  sinatra-contrib
+  treezor!
+
+BUNDLED WITH
+   1.15.1
